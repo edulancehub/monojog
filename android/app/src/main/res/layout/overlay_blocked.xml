@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F4F8"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <!-- Block Icon Container -->
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/circle_primary"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@android:drawable/ic_lock_lock"
+            android:tint="#FFFFFF" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="মনোযোগ মোড সক্রিয়"
+        android:textColor="#6366F1"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvBlockedMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:lineSpacingExtra="8dp"
+        android:text="এই অ্যাপটি ব্লক করা আছে\nমনোযোগ দিয়ে পড়াশোনা করুন!"
+        android:textColor="#64748B"
+        android:textSize="16sp" />
+
+    <!-- Warning message -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/warning_background"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@android:drawable/ic_dialog_alert"
+            android:tint="#F59E0B" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:text="মনোযোগ মোড শেষ না হওয়া পর্যন্ত অপেক্ষা করুন"
+            android:textColor="#92400E"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- Back to Monojog button -->
+    <TextView
+        android:id="@+id/btnBackToMonojog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/button_primary"
+        android:paddingHorizontal="32dp"
+        android:paddingVertical="16dp"
+        android:text="মনোযোগে ফিরে যান"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Motivational quote -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:gravity="center"
+        android:text="&quot;সফলতার জন্য মনোযোগ সবচেয়ে গুরুত্বপূর্ণ&quot;"
+        android:textColor="#94A3B8"
+        android:textSize="14sp"
+        android:textStyle="italic" />
+
+</LinearLayout>

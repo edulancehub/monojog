@@ -1,0 +1,11 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    prefer_const_constructors: true
+    prefer_const_literals_to_create_immutables: true
+    avoid_print: true
+    prefer_single_quotes: true
+    # Disabled: false-positive when Bengali/Unicode chars follow variable name
+    # since Bengali letters are valid Dart identifier continuation characters
+    unnecessary_brace_in_string_interps: false

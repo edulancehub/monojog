@@ -1,4 +1,15 @@
+<<<<<<< HEAD
 # মনোযোগ (Monojog)
+
+একটি অফলাইন স্টাডি ট্র্যাকার অ্যাপ যা আপনাকে মনোযোগ দিয়ে পড়াশোনা করতে সাহায্য করে।
+
+## বৈশিষ্ট্য
+
+### 📚 স্টাডি ট্র্যাকার
+- দৈনিক পড়াশোনার সময় ট্র্যাক করুন
+# মনোযোগ (Monojog)
+
+This repository contains the Monojog Flutter app (monojog.app).
 
 একটি অফলাইন স্টাডি ট্র্যাকার অ্যাপ যা আপনাকে মনোযোগ দিয়ে পড়াশোনা করতে সাহায্য করে।
 
@@ -35,7 +46,7 @@
 
 1. রিপোজিটরি ক্লোন করুন:
 ```bash
-git clone https://github.com/your-repo/monojog.git
+git clone https://github.com/edulancehub/monojog.git
 cd monojog
 ```
 
@@ -46,7 +57,7 @@ flutter pub get
 
 3. ফন্ট ডাউনলোড করুন:
    - [NotoSansBengali](https://fonts.google.com/noto/specimen/Noto+Sans+Bengali) ডাউনলোড করুন
-   - `assets/fonts/` ফোল্ডারে রাখুন
+   - assets/fonts/ ফোল্ডারে রাখুন
 
 4. অ্যাপ চালান:
 ```bash
@@ -87,3 +98,4 @@ MIT License
 
 ---
 Made with ❤️ in Bangladesh 🇧🇩
+
